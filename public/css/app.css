@@ -1,0 +1,30 @@
+/**** List Page ****/
+table.table {
+  border-bottom: 1px solid #dee2e6;
+}
+table.table-hover tr {
+  cursor: pointer;
+}
+#fetch-form-card .card-header {
+  background-color: #b8daff;
+  border-color: #7abaff;
+}
+#fetch-form-card .form-inline {
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  #fetch-form-card {
+    width: 50%;
+  }
+}
+
+
+/**** Detail Page ****/
+#repo-detail span.item-title {
+  display: inline-block;
+  width: 145px;
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
+}
