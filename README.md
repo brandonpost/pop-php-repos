@@ -41,17 +41,17 @@ A live demo of this project can be viewed at [https://victr.brandonpost.com](htt
 1. Create an empty MySQL database (using phpMyAdmin or MySQL CLI).
 2. Clone the GitHub repository to your local environment.
 3. In a command line (terminal) window, navigate to the project folder.
-    cd /path/to/project/folder
+    > cd /path/to/project/folder
 4. Install the composer packages.
-    composer install
+    > composer install
 5. Create a local environment settings file by running this command:
-    composer dump-env prod
+    > composer dump-env prod
 6. Edit the .env.local.php file just created by the previous command and enter the correct values in the DATABASE_URL line.
 7. Allow Doctrine to create database tables by running this command (type Y to confirm if prompted):
-    php bin/console doctrine:migrations:migrate
+    > php bin/console doctrine:migrations:migrate
 8. Navigate to the public folder within the project:
-    cd public
+    > cd public
 9. Run the following command to start PHP's built-in web server:
-    php -S localhost:8000
+    > php -S localhost:8000
 10. Open a browser window and enter the following into the address bar:
-    http://localhost:8000
+    > http://localhost:8000
