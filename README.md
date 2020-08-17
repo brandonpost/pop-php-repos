@@ -43,11 +43,11 @@ A live demo of this project can be viewed at [https://victr.brandonpost.com](htt
 2. Clone the GitHub repository to your local environment.
 3. In a command line (terminal) window, navigate to the project folder.
     > cd /path/to/project/folder
-4. Install the composer packages.
-    > composer install
-5. Create a local environment settings file by running this command:
+4. Create a local environment settings file by running this command:
     > composer dump-env prod
-6. Edit the .env.local.php file just created by the previous command and enter the correct values in the DATABASE_URL line.
+5. Edit the .env.local.php file just created by the previous command and enter the correct values in the DATABASE_URL line.
+6. Install the composer packages.
+    > composer install
 7. Allow Doctrine to create database tables by running this command (type Y to confirm if prompted):
     > php bin/console doctrine:migrations:migrate
 8. Navigate to the public folder within the project:
