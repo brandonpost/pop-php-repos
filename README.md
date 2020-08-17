@@ -17,6 +17,7 @@ entity properties.
 The primary back-end files of interest for this project are:
 - src/Controller/GithubRepoController.php
 - src/Entity/GithubRepo.php
+- src/Repository/GithubRepoRepository.php
 
 ### Front-End
 
